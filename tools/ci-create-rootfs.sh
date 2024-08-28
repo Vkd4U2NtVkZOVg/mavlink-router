@@ -12,6 +12,8 @@ if [ "$ARCH" == "aarch64" ]; then
     DISTRO_ARCH="arm64v8"
 elif [ "$ARCH" == "armhf" ]; then
     DISTRO_ARCH="arm32v7"
+elif ["$ARCH" == "mipsel"]; then
+    DISTRO_ARCH="mipsel"
 else
     DISTRO_ARCH="$ARCH"
 fi
