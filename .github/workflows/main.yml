@@ -31,6 +31,8 @@ jobs:
             arch: native
           - name: i686
             arch: native
+          - name: mipsel
+            arch: mipsel-linux-gnu
     steps:
       - uses: actions/checkout@v4
         with:
